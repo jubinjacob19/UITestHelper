@@ -11,6 +11,6 @@ It accepts the following arguments:
 * t: Target of the project (e.g. YourApp_UITests)
 * l: Retry Limit; The number of retries that you want the program to run.
 
-###Dependencies
+### Dependencies
 * MacOS with Xcode commandline tools installed Xcode version (>=10.2)
 * PLISTBUDDY (usually comes with the macOS)
