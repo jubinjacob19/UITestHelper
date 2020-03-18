@@ -10,3 +10,7 @@ It accepts the following arguments:
 * d: Destination of the test (e.g. platform=iOS Simulator,name=iPad Pro (12.9-inch),OS=12.2)
 * t: Target of the project (e.g. YourApp_UITests)
 * l: Retry Limit; The number of retries that you want the program to run.
+
+###Dependencies
+* MacOS with Xcode commandline tools installed Xcode version (>=10.2)
+* PLISTBUDDY (usually comes with the macOS)
