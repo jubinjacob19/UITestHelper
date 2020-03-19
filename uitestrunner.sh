@@ -85,7 +85,7 @@ while [ $retries -lt $retry_limit ]; do
     retries=$(($retries + 1))
     if [ $failure_count -ne 0 ]; then
         echo "Rerunning failed tests"
-        command="$base_string -resultBundlePath 'build' test | xcpretty"
+        command="$base_string -resultBundlePath 'build' test"
         eval "$command"
         base_string="xcodebuild -workspace $workspace -scheme $scheme -sdk iphonesimulator -destination '$destination'"
         failure_count=0
